@@ -1,25 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Navibar from './Components/Navbar/Navbar';
+import Home from './Pages/Home/Home';
+import { BrowserRouter, Route } from 'react-router-dom';
+import Footer from './Components/Footer';
+import CandidateRegister from './Pages/Registration/CandidateRegister';
+import EmployerRegister from './Pages/Registration/EmployerRegister';
+import Registration from './Pages/Registration/Register';
+import SignIn from './Pages/SignIn/SignIn';
+import MyAccount from './Pages/MyAccount/CandidateAccount';
+import MyResumes from './Pages/MyAccount/MyResume';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter > 
+        <Navibar />
+        <Route exact path='/' component = {Home} />
+        <Route exact path='/registration' component = {Registration} />
+        <Route exact path='/candidateRegister' component = {CandidateRegister} />
+        <Route exact path='/employerRegister' component = {EmployerRegister} />
+        <Route exact path='/signIn' component = {SignIn} />
+
+        <Route exact path='/myAccount' component = {MyAccount} />
+        <Route exact path='/myResume' component = {MyResumes} />
+        <Footer />
+    </BrowserRouter>
   );
 }
 

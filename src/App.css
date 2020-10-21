@@ -1,38 +1,182 @@
-.App {
+/* Navbar Styling */
+a.HomeNav {
+  padding-left: 70px;
+  color: rgb(18, 18, 128);
+  font-size: 14px;
+  font-family: Franklin Gothic book, Arial, Verdana, Arial, sans-serif;
+}
+
+a.menu {
+  padding-top: 8px;
+  padding-left: 25px;
+  color: rgb(18, 18, 128);;
+  font-size: 14px;
+  font-family: Franklin Gothic book, Arial, Verdana, Arial, sans-serif;
+}
+a.Register {padding-left: 380px;padding-right: 8px; padding-top: 8px;  color: rgb(18, 18, 128); font-size: 14px; font-family: Franklin Gothic book, Arial, Verdana, Arial, sans-serif;}
+
+a.SignIn {
+    padding-left: 8px;
+    padding-top: 8px;
+    color: rgb(18, 18, 128);
+    font-size: 14px;
+    font-family: Franklin Gothic book, Arial, Verdana, Arial, sans-serif;
+}
+a.dash{padding-top: 8px; color: rgb(18, 18, 128); font-size: 14px;}
+a.dropdown-toggle.nav-link {
+  margin-left: 25px;
+  border: 1px solid;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  font-size: 14px;
+  font-family: Franklin Gothic book, Arial, Verdana, Arial, sans-serif;
+}
+.dropdown-menu.show {
+  margin-left: 25px !important;
+}
+nav.navbar.navbar.navbar-expand-lg.navbar-light {
+  border-bottom: 0.3px solid lightgray;
+  color: rgb(18, 18, 128);;
+}
+
+/* Home Search Styles */
+
+img.hotjobads {
+  height: auto;
+  width: 70%;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-left: 70px;
+  margin-top: 100px;
+}
+.row.jobSearch {
+  margin-top: 20px;
+}
+input#jobTitle {
+  width: 100%;
+  height: 50px;
+  padding-left: 40px;
+  opacity: 80%;
+  font-family: Franklin Gothic book, Arial, Verdana, Arial, sans-serif;
+  font-size: 14px;
+}
+i.fa.fa-search {
+  font-size: 18px;
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 15px;
+  opacity: 90%;
+}
+i.fa.fa-map-marker-alt {
+  font-size: 18px;
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 15px;
+  opacity: 90%;
+}
+
+button.findJobs {
+  background: #283890;
+  border: none;
+  width: 100%;
+  height: 50px;
   color: white;
+  font-size: 22px;
+  font-family: Franklin Gothic book, Arial, Verdana, !important;
 }
 
-.App-link {
-  color: #61dafb;
+/* Footer Styling */
+a.footerMenu {
+  margin-left: 25px;
+  color: gray;
+  text-decoration: underline;
+  font-family: Franklin Gothic book, Arial, Verdana, !important;
+}
+.row.footerRow1 {
+  text-align: center;
+  margin-left: -55px;
+  margin-top: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row.footerRow2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: Franklin Gothic book, Arial, Verdana, !important;
+}
+
+
+/* Registration Page Styles */
+.row.RegisterRow1 {
+  padding-top: 70px;
+  padding-left: 100px;
+}
+
+h5#registerHeading {
+  font-size: 27px;
+  color: darkblue;
+  font-family: Franklin Gothic book, Arial, Verdana, !important;
+}
+
+
+.row.RegisterRow1 p {
+  font-family: Franklin Gothic book, Arial, Verdana, !important;
+}
+.row.RegisterRow2 {
+  padding-left: 100px;
+}
+
+a.registrationOption {
+  color: black;
+  font-size: 18px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+/* My Accounts Styles */
+
+.row.CandidateAccountRow2 {
+  margin-top: 30px;
+}
+
+.row.CandidateAccountRow1 {
+  margin-top: 24px;
+}
+
+div#sideMenu button {
+  background: darkblue;
+  border: none;
+  color: white;
+  height: 40px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Franklin Gothic book, Arial, Verdana, !important;
+}
+.myAccountMenu1 {
+  border: 1px solid gray;
+  height: 40px;
+  width: 100%;
+  padding: 10px 5px 0px 5px;
+  margin-top: -24px;
+  color: black;
+  font-family: Franklin Gothic book, Arial, Verdana, !important;
+}
+.myAccountMenu2{
+  border: 1px solid gray;
+  height: 40px;
+  width: 100%;
+  padding: 10px 5px 0px 5px;
+  margin-top: -48px;
+  color: black;
+  border-top: none;
+  font-family: Franklin Gothic book, Arial, Verdana, !important;
+}
+div#myAccountTitle {
+  background: lightblue;
+  padding-top: 7px;
+}
+
+.MuiDataGrid-root.MuiDataGrid-root {
+  margin-left: -15px;
 }

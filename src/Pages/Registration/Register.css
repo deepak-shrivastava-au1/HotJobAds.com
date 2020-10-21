@@ -1,0 +1,46 @@
+.buttonInside {
+  position: relative;
+  border: 1px solid #ced4da;
+}
+
+.buttonInside > input {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.buttonInside > span {
+  position: absolute;
+  right: 0px;
+  top: 4px;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-weight: bold;
+  padding: 4px;
+}
+
+span:hover {
+  cursor: pointer;
+}
+
+.available {
+  color: green;
+}
+
+.not-available {
+  color: #c81912;
+}
+input#checkUsername {
+  height: 22px;
+  width: auto;
+}
+.registerHeading.col-md-8.col-sm-10.col-12 {
+  padding-top: 40px;
+}
+div#reCaptcha {
+  margin-top: 18px;
+}
+div#tandc {
+  margin-left: -44px;
+}
